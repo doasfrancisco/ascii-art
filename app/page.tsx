@@ -8,7 +8,7 @@ export default function Home() {
 
   const handleClick = () => {
     if (audioRef.current && !isClicked) {
-      audioRef.current.volume = 0.5;
+      audioRef.current.volume = 1;
       audioRef.current.play().catch((error) => {
         console.log("Failed to play audio:", error);
       });
