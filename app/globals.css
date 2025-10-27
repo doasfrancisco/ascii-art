@@ -35,6 +35,11 @@ body {
   transform-origin: bottom center;
 }
 
+.flower-line {
+  opacity: 0;
+  animation: letterAppear 0.3s ease-in forwards;
+}
+
 .click-prompt-container {
   height: 22px;
   display: flex;
